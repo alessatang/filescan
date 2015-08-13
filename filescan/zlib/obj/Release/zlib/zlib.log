@@ -1,0 +1,35 @@
+﻿Build started 7/21/2015 1:39:24 PM.
+     1>Project "I:\Study\filescan\zlib\zlib.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\zlib\\" /Fd"obj\Release\zlib\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt adler32.c compress.c crc32.c deflate.c infback.c inffast.c inflate.c inftrees.c trees.c uncompr.c zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\rel\zlib.lib" /NOLOGO /LTCG obj\Release\zlib\adler32.obj
+         obj\Release\zlib\compress.obj
+         obj\Release\zlib\crc32.obj
+         obj\Release\zlib\deflate.obj
+         obj\Release\zlib\infback.obj
+         obj\Release\zlib\inffast.obj
+         obj\Release\zlib\inflate.obj
+         obj\Release\zlib\inftrees.obj
+         obj\Release\zlib\trees.obj
+         obj\Release\zlib\uncompr.obj
+         obj\Release\zlib\zutil.obj
+         zlib.vcxproj -> I:\Study\filescan\zlib\..\rel\zlib.lib
+     1>Done Building Project "I:\Study\filescan\zlib\zlib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.10
